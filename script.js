@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     const password = document.getElementById('password').value;
     const loginMessage = document.getElementById('loginMessage');
 
-    if (username === 'Drishti' && password === 'password') {
+    if (username === 'Drishti' && password === 'Password') {
         window.location.href = 'admin.html';
     } else {
         loginMessage.textContent = 'Incorrect username or password. Please try again.';
